@@ -1,0 +1,124 @@
+body{
+	font-size: 16px;
+	line-height: 20px;
+	/*font-family: 'Poppins', sans-serif;
+font-family: 'Anton', sans-serif;*/
+	min-width: 960px;
+	background-color: #191113;
+}
+
+
+header{
+	background: #23060b;
+	padding: 1em 0;
+	width: 100%; 
+}
+header h1{
+	color: white; /**/
+	font-size: 2.5em;
+	font-family: 'Anton', sans-serif;
+	font-weight: 100;
+	display: inline-block;
+	position: relative;
+	bottom: 0.2em;
+	margin-left: 0.3em;
+}
+
+nav{
+	width: 80%;
+	background-color: #8e8384;
+	padding-left: 10em;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding-right: 0.5em;
+	margin-bottom: 1em;
+	padding-left: 60px;
+
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 0;
+	width: 120px;
+	height: 50px;
+	font-size: 20px;
+
+
+}
+nav ul li img{
+	width: 50px;
+	height: 40px;
+	padding-left: 28px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+
+}
+
+
+nav ul li a{
+	color:white;
+	text-align: left;
+	text-decoration: none;
+	display: block;
+	padding-bottom: 0;
+
+}
+nav ul li a p{
+	color: #261701;
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+}
+
+nav ul li a:hover{
+	background-color: rgba(0,0,0,0.5);
+}
+
+nav ul li a.activo{
+    
+}
+
+footer{
+	background-color: #423738;
+	color: white;
+	font-size: 0.7em;
+	font-style: italic;
+	text-align: center;
+	padding: 3em 0;
+	margin-top:2em;
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+
+}
+
+.holder{
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+h2{
+	text-align: left;
+	font-weight: 400;
+	color: #261701;
+	padding-left: 1em;
+	font-family: 'Anton', sans-serif;
+	border-bottom: 1px solid #261701;
+	padding-bottom: 0.5em;
+}
+
+h3{
+	text-align: left;
+	font-weight: 400;
+	color: #aa5e12;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 1.2em;
+	font-family: 'Anton', sans-serif;
+}
+p{
+	font-family: 'Poppins', sans-serif;
+}
